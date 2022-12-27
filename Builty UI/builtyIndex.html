@@ -1,0 +1,869 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="builtyStyle.css">
+    <script src="builtyScript.js"></script>
+    <title>Builty website</title>
+</head>
+<body>
+    <div class="header-elements">
+        <div class="logo-element">
+            <img src="./images/Builty-Logo.svg" alt="logo" class="logoImage logo-el">
+        </div>
+        <div class="navbar-elements">
+            <ul class="nb-elements">
+                <li class="nb-elements-list nbList pointerElement">Home
+                    <div class="arrowImgs"></div>
+                    <ul class="nb-popup">
+                        <li class="popup-list home1 pointerElements">Home One</li>
+                        <li class="popup-list home2 pointerElements">Home Two</li>
+                        <li class="popup-list home3 pointerElements">Home Three</li>
+                    </ul>
+                </li>
+                <li class="nb-elements-list">About
+                    <div class="arrowImgs"></div>
+                    <ul class="nb-popup">
+                        <li class="popup-list">About Companies</li>
+                        <li class="popup-list">Core Values</li>
+                        <li class="popup-list">Leadership</li>
+                        <li class="popup-list">History</li>
+                    </ul>
+                </li>
+                <li class="nb-elements-list">Pages
+                    <div class="arrowImgs"></div>
+                    <ul class="nb-popup">
+                        <li class="popup-list">Services</li>
+                        <li class="popup-list">Projects</li>
+                        <li class="popup-list">Teams</li>
+                    </ul>
+                </li>
+                <li class="nb-elements-list">Shop
+                    <div class="arrowImgs"></div>
+                    <ul class="nb-popup">
+                        <li class="popup-list">Products</li>
+                        <li class="popup-list">Cart</li>
+                        <li class="popup-list">Checkout</li>
+                        <li class="popup-list">My Account</li>
+                    </ul>
+                </li>
+                <li class="nb-elements-list">News
+                    <div class="arrowImgs"></div>
+                    <ul class="nb-popup">
+                        <li class="popup-list">Blog One</li>
+                        <li class="popup-list">Blog Two</li>
+                        <li class="popup-list">Blog Single</li>
+                    </ul>
+                </li>
+                <li class="nb-elements-list">Contact</li>
+            </ul>
+        </div>
+        <div class="navLeft">
+            <div class="expand-icon navIcons">
+                <img src="./images/menu-icon-white.png" alt="menu" class="menuImg">
+            </div>
+            <div class="cart-icon navIcons">
+                <img src="./images/cart-white.png" alt="cart" class="cartImg">
+            </div>
+        </div>
+        <div class="btn-component navIons">
+            <button class="quoteBtn button">Get a Quote</button>
+        </div>
+ 
+    </div>
+    <div class="main-container1">
+        <div class="bridge-container active" id="slider1">
+            <div class="content-div">
+                <div class="bridge-content">
+                    <h1 class="h1Tag">New Bridge on the Dedham</h1>
+                    <p class="pTag">We will go through all the stages of construction.</p>
+                </div>
+                <div class="slideBtn yellowBox">
+                    <div class="slideElement">Start Consulting</div>
+                </div>
+            </div>
+            <div class="image-div">
+                <div class="image-container">
+                    <div class="skew-container-large">
+                        <img src="./images/slider-image1.jpeg" alt="slider1-image1" class="image-large1">
+                    </div>
+                    <div class="skew-container-small">
+                        <img src="./images/slider-image2.jpeg" alt="slider-image2" class="image-small1">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="arrows">
+            <button class="arrowBtn btnLeft" onclick="sliderLeft()"><img src="./images/arrow-left-white.png" alt="left" class="arrowLeft"></button>
+            <button class="arrowBtn btnRight" onclick="sliderRight()"><img src="./images/arrow-right-white.png" alt="right" class="arrowRight"></button>
+        </div>
+        <div class="bridge-container" id="slider2">
+            <div class="content-div ">
+                <div class="bridge-content">
+                    <h1 class="h1Tag">Reconstruction of The Building</h1>
+                    <p class="pTag">We will go through all the stages of construction.</p>
+                </div>
+                <div class="slideBtn yellowBox">
+                    <div class="slideElement">Estimate Price</div>
+                </div>
+            </div>
+            <div class="image-div">
+                <div class="image-container">
+                    <div class="skew-container-large">
+                        <img src="images/slider-image2.jpeg" alt="slider-image2" class="image-large1">
+                    </div>
+                    <div class="skew-container-small">
+                        <img src="images/slider-image3.jpeg" alt="slider-image3" class="image-small1">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bridge-container" id="slider3">
+            <div class="content-div">
+                <div class="bridge-content">
+                    <h1>Old Factory Construction</h1>
+                    <p>We will go through all the stages of construction.</p>
+                </div>
+                <div class="slideBtn yellowBox">
+                    <div class="slideElement">Go to Shop</div>
+                </div>
+            </div>
+            <div class="image-div">
+                <div class="image-container">
+                    <div class="skew-container-large">
+                        <img src="./images/slider-image3.jpeg" alt="slider1-image1" class="image-large1">
+                    </div>
+                    <div class="skew-container-small">
+                        <img src="./images/slider-image1.jpeg" alt="slider-image2" class="image-small1">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main-container2">
+        <div class="container1-headingContent">
+            <img src="./images/section2-imageIcon.png" alt="imageIcon" class="headingImg c1-headingElements">
+            <div class="heading-content1 c1-headingElements">Focused and Future Ready</div>
+            <h2 class="heading-content2 c1-headingElements">
+                Right People to Deliver Unique Construction Solutions
+            </h2>
+        </div>
+        <div class="container2-mainContent">
+            <div class="c2-contents">
+                <div class="c2-contentSection">
+                    <div class="c2-cs-part1">
+                        <h2 class="c2-cs-part bold-part">Our Goal is to Be Better</h2>
+                        <p class="c2-cs-part">We successfully cope with tasks of varying complexity, provide long-term guarantees and regularly master new technologies. Our portfolio includes dozens of successfully completed projects of houses of different storeys, with high–quality finishes and good repairs. Building houses is our vocation!</p>
+                    </div>
+                    <div class="c2-cs-part2">
+                        <h2 class="c2-cs-part bold-part">Business Bottom Line</h2>
+                        <ul class="c2-cs-par li-part">
+                            <li class="part-list">Geographical diversity, project complexity</li>
+                            <li class="part-list">Whether building on land or over water</li>
+                            <li class="part-list">Construction companies respond to the unique needs</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="c2-imageSection">
+                    <div class="imageContainer">
+                        <img src="./images/container2-workers.jpeg" alt="labours" class="labourImg">
+                    </div>
+                    <div class="centerImg">
+                        <div class="logo centerImages">
+                            <img src="./images/logo-home.svg" alt="logo" class="logoHomeImg">
+                        </div>
+                        <div class="rotate centerImages">
+                            <img src="./images/rotate-image.png" alt="" class="rotateImg">
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main-container3">
+        <div class="container1-headingContent">
+            <img src="./images/section2-imageIcon.png" alt="imageIcon" class="headingImg c1-headingElements">
+            <div class="heading-content1 c1-headingElements">Select a plan that suits</div>
+            <h2 class="heading-content2 c1-headingElements">
+                Flexible Pricing Plans
+            </h2>
+        </div>
+        <div class="planningDiv">
+            <div class="plan1 plans">
+                <div class="plan-content">
+                    <h3 class="firstLine">Plan It</h3>
+                    <span class="amount">$20</span>
+                    <div class="ul-content">
+                        <p class="uc-first underline-content">Per user/Month</p>
+                        <p class="uc-second underline-content">Billed Annually</p>
+                    </div>
+                    <p class="manage-content">Manage your own project documents and collaborate.</p>
+                    <div class="selectBtn">
+                        <div class="slideElement">Select Now</div>
+                    </div>
+                </div>
+                <div class="planImage-content">
+                    <img src="./images/Plan1-image.jpeg" alt="plan1" class="planImgSkew">
+                </div>
+                <div class="skew-content">
+                    <div class="list-contents">
+                        <p class="features-content">All Plan.it features</p>
+                        <p class="features-content">Intelligent bid manager</p>
+                        <p class="features-content">Contractor network</p>
+                    </div>
+                </div>
+            </div>
+            <div class="plan2 plans">
+                <div class="plan-content">
+                    <h3 class="firstLine">Build It</h3>
+                    <span class="amount">$60</span>
+                    <div class="ul-content">
+                        <p class="uc-first underline-content">Per user/Month</p>
+                        <p class="uc-second underline-content">Billed Annually</p>
+                    </div>
+                    <p class="manage-content">Manage your own project documents and collaborate.</p>
+                    <div class="selectBtn">
+                        <div class="slideElement">Select Now</div>
+                    </div>
+                </div>
+                <div class="planImage-content">
+                    <img src="./images/plan2-image.jpeg" alt="plan2" class="planImgSkew">
+                </div>
+                <div class="skew-content">
+                    <div class="list-contents">
+                        <p class="features-content">All Build.it features</p>
+                        <p class="features-content">Intelligent bid manager</p>
+                        <p class="features-content">Contractor network</p>
+                    </div>
+                </div>
+            </div>
+            <div class="plan3 plans">
+                <div class="plan-content">
+                    <h3 class="firstLine">Build.it PRO</h3>
+                    <span class="amount">$94</span>
+                    <div class="ul-content">
+                        <p class="uc-first underline-content">Per user/Month</p>
+                        <p class="uc-second underline-content">Billed Annually</p>
+                    </div>
+                    <p class="manage-content">Manage your own project documents and collaborate.</p>
+                    <div class="selectBtn">
+                        <div class="slideElement">Select Now</div>
+                    </div>
+                </div>
+                <div class="planImage-content">
+                    <img src="./images/plan3-image.jpeg" alt="plan1" class="planImgSkew">
+                </div>
+                <div class="skew-content">
+                    <div class="list-contents">
+                        <p class="features-content">All Build.it PRO features</p>
+                        <p class="features-content">Intelligent bid manager</p>
+                        <p class="features-content">Contractor network</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main-container4">
+        <div class="m4-container">
+            <div class="m4-heading-content">
+                <p class="project-content heading-content1">Company Projects</p>
+                <h2 class="secondline-content heading-content2">What We Build</h2>
+            </div>
+            <div class="table-content">
+                <div class="table-list active">
+                    <span class="number">1.</span>
+                    <h3 class="workplace-content">Project Horizon Development</h3>
+                    <div class="location">
+                        <span>Location:</span>
+                        <span>United State</span>
+                    </div>
+                    <div class="image-list">
+                        <img src="./images/slider-image2.jpeg" alt="" class="rightImg">
+                    </div>
+                </div>
+                <div class="table-list">
+                    <span class="number">2.</span>
+                    <h3 class="workplace-content">Charles Dedham Workspace</h3>
+                    <div class="location">
+                        <span>Location:</span>
+                        <span>United Kingdom</span>
+                    </div>
+                    <div class="image-list">
+                        <img src="./images/Project2-image.jpeg" alt="" class="rightImg">
+                    </div>
+                </div>
+                <div class="table-list">
+                    <span class="number">3.</span>
+                    <h3 class="workplace-content">Patient Support Centre</h3>
+                    <div class="location">
+                        <span>Location:</span>
+                        <span>New York</span>
+                    </div>
+                    <div class="image-list">
+                        <img src="./images/project3-image.jpeg" alt="" class="rightImg">
+                    </div>
+                </div>
+                <div class="table-list">
+                    <span class="number">4.</span>
+                    <h3 class="workplace-content">The Stella & Bluewater</h3>
+                    <div class="location">
+                        <span>Location:</span>
+                        <span>Dubai</span>
+                    </div>
+                    <div class="image-list">
+                        <img src="./images/project4-image.jpeg" alt="" class="rightImg">
+                    </div>
+                </div>
+                <div class="table-list">
+                    <span class="number">5.</span>
+                    <h3 class="workplace-content">Atmosphere Housing</h3>
+                    <div class="location">
+                        <span>Location:</span>
+                        <span>London</span>
+                    </div>
+                    <div class="image-list">
+                        <img src="./images/Plan1-image.jpeg" alt="" class="rightImg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main-container5">
+        <div class="container1-headingContent">
+            <img src="./images/section2-imageIcon.png" alt="imageIcon" class="headingImg c1-headingElements">
+            <div class="heading-content1 c1-headingElements">What we provide</div>
+            <h2 class="heading-content2 c1-headingElements">
+                Exclusive Services
+            </h2>
+        </div>
+        <div class="grid-content">
+            <div class="grid-container">
+                <div class="box box1">
+                    <div class="construction-content">
+                        <h3 class="first-content">Construction</h3>
+                        <span class="second-content">Designing and Building The Most Beautiful Custom Homes.</span>
+                    </div>
+                    <div class="image-content">
+                        <img src="./images/construction-image.svg" alt="" class="constructionImg">
+                    </div>
+                    <img src="./images/up-right-arrow.png" alt="" class="up-right-arrow">
+                    <div class="hoverdiv">
+                        <img src="./images/service-hover-img.png" alt="" class="hoverImg">
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="construction-content">
+                        <h3 class="first-content">Project Development</h3>
+                        <span class="second-content">Designing and Building The Most Beautiful Custom Homes.</span>
+                    </div>
+                    <div class="image-content">
+                        <img src="./images/project-image.svg" alt="" class="constructionImg">
+                    </div>
+                    <img src="./images/up-right-arrow.png" alt="" class="up-right-arrow">
+                    <div class="hoverdiv">
+                        <img src="./images/service-hover-img.png" alt="" class="hoverImg">
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="construction-content">
+                        <h3 class="first-content">Interior Design</h3>
+                        <span class="second-content">Designing and Building The Most Beautiful Custom Homes.</span>
+                    </div>
+                    <div class="image-content">
+                        <img src="./images/interior-image.svg" alt="" class="constructionImg">
+                    </div>
+                    <img src="./images/up-right-arrow.png" alt="" class="up-right-arrow">
+                    <div class="hoverdiv">
+                        <img src="./images/service-hover-img.png" alt="" class="hoverImg">
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="construction-content">
+                        <h3 class="first-content">Welding & Laser</h3>
+                        <span class="second-content">Designing and Building The Most Beautiful Custom Homes.</span>
+                    </div>
+                    <div class="image-content">
+                        <img src="./images/welding-image.svg" alt="" class="constructionImg">
+                    </div>
+                    <img src="./images/up-right-arrow.png" alt="" class="up-right-arrow">
+                    <div class="hoverdiv">
+                        <img src="./images/service-hover-img.png" alt="" class="hoverImg">
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="construction-content">
+                        <h3 class="first-content">Architecture</h3>
+                        <span class="second-content">Designing and Building The Most Beautiful Custom Homes.</span>
+                    </div>
+                    <div class="image-content">
+                        <img src="./architecture-image.svg" alt="" class="constructionImg">
+                    </div>
+                    <img src="./images/up-right-arrow.png" alt="" class="up-right-arrow">
+                    <div class="hoverdiv">
+                        <img src="./images/service-hover-img.png" alt="" class="hoverImg">
+                    </div>
+                </div>
+                <div class="box box6">
+                    <div class="services">
+                        <h3 class="view">View All Services</h3>
+                        <div class="round-arrow">
+                            <img src="./images/black-double-arrow.png" alt="arrow" class="round-arrow-arrow">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main-container6">
+        <div class="container1-headingContent">
+            <img src="./images/section2-imageIcon.png" alt="imageIcon" class="headingImg c1-headingElements">
+            <div class="heading-content1 c1-headingElements">What are we provide of</div>
+            <h2 class="heading-content2 c1-headingElements">
+                Company Awwards and Certificates
+            </h2>
+        </div>
+        <div class="certificate-container">
+            <div class="image-container-m6">
+                <div class="discussionImgDiv">
+                    <img src="./images/m6-image1.jpeg" alt="discussion" class="discussionImg">
+                </div>
+                <div class="circle-design">
+                    <div class="circle-content">
+                        <h2>100%</h2>
+                        <p>Designed Codes</p>
+                    </div>
+                </div>
+            </div>
+            <div class="content-container-m6">
+                <p class="firstLine">
+                    <span>WE WON MANY FACTORY AWARDS</span>
+                </p>
+                <h2 class="secondLine">
+                    Got Many Certificates Since 2001 - 2016
+                </h2>
+                <div class="small-container">
+                    <div class="moving-containers active-left" id="moving-container1">
+                        <div class="awards-image">
+                            <img src="./images/awards-img.png" alt="awards" class="awardsImg">
+                        </div>
+                        <div class="sc-content">
+                            <p><span class="award-underline">2001 Award</span></p>
+                            <h3>Society of Experimental Global Design Awards</h3>
+                            <p>The SEGD Global Design Awards represents the best in experiential graphic design and covers a variety of topics.</p>
+                        </div>
+                    </div>
+                    <div class="moving-containers active-award" id="moving-container2">
+                        <div class="awards-image">
+                            <img src="./images/awards-img.png" alt="awards" class="awardsImg">
+                        </div>
+                        <div class="sc-content">
+                            <p><span class="award-underline">2002 Award</span></p>
+                            <h3>Society of Experimental Global Design Awards</h3>
+                            <p>The SEGD Global Design Awards represents the best in experiential graphic design and covers a variety of topics.</p>
+                        </div>
+                    </div>
+                    <div class="moving-containers active-right" id="moving-container3">
+                        <div class="awards-image">
+                            <img src="./images/awards-img.png" alt="awards" class="awardsImg">
+                        </div>
+                        <div class="sc-content">
+                            <p><span class="award-underline">2003 Award</span></p>
+                            <h3>Society of Experimental Global Design Awards</h3>
+                            <p>The SEGD Global Design Awards represents the best in experiential graphic design and covers a variety of topics.</p>
+                        </div>
+                    </div>                         
+                </div>
+                <div class="arrows-content">
+                    <button class="arrowBtn-black buttonLeft" onclick="leftSlide()">
+                        <img src="./images/arrow.png" alt="left" class="arrowLeft">
+                    </button>
+                    <button class="arrowBtn-black buttonRight" onclick="rightSlide()">
+                        <img src="./images/arrow-right.png" alt="right" class="arrowRight">
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main-container7" onclick="removeClick(event)">
+        <div class="heading-container-mc7">
+            <div class="heading-content1 firstLine-mc7">Home Construction cost calculator</div>
+            <h2 class="heading-content2 secondLine-mc7">Estimated Price</h2>
+        </div>
+        <div class="form-container">
+            <div class="form-content">
+                <div class="form-heading">
+                    <p>To get the cost estimation of your house please select from the following:</p>
+                </div>
+                <div class="form-area">
+                    <div class="house-div">
+                        <div>House Area</div>
+                        <div class="square-segment" onclick="optionClick(this)">
+                            <div class="input-element">
+                                <p class="selected" id="select1">Choose Area</p> 
+                                <div class="after-div"></div>
+                            </div>
+                            <div class="option-div">
+                                <ul>
+                                    <li class="option-element" onclick="selectedOption(this,'select1')">Choose Area</li>
+                                    <li class="option-element" onclick="selectedOption(this,'select1')">to 50 sq.m</li>
+                                    <li class="option-element" onclick="selectedOption(this,'select1')">from 100 - 150 sq.m</li>
+                                    <li class="option-element" onclick="selectedOption(this,'select1')">from 150 - 250 sq.m</li>
+                                    <li class="option-element" onclick="selectedOption(this,'select1')">250 sq.m and more</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>  
+                    <div class="room-div room-div1">
+                        <div>Rooms</div>
+                        <div class="square-segment ss1" onclick="optionClick(this)">
+                            <div class="input-element2">
+                                <p class="selected" id="select2">Select</p>
+                                <div class="after-div"></div>
+                            </div>
+                            <div class="option-div">
+                                <ul>
+                                    <li class="option-element" onclick="selectedOption(this,'select2')">Select</li>
+                                    <li class="option-element" onclick="selectedOption(this,'select2')">1</li>
+                                    <li class="option-element" onclick="selectedOption(this,'select2')">2</li>
+                                    <li class="option-element" onclick="selectedOption(this,'select2')">3</li>
+                                    <li class="option-element" onclick="selectedOption(this,'select2')">4</li>
+                                    <li class="option-element" onclick="selectedOption(this,'select2')">5</li>
+                                    <li class="option-element" onclick="selectedOption(this,'select2')">6 and more</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="room-div room-div2">
+                        <div>Bathrooms</div>
+                        <div class="square-segment ss2" onclick="optionClick(this)">
+                            <div class="input-element2">
+                                <p class="selected" id="select3">Select</p>
+                                <div class="after-div"></div>
+                            </div>
+                            <div class="option-div">
+                                <ul>
+                                    <li class="option-element" onclick="selectedOption(this,'select3')">Select</li>
+                                    <li class="option-element" onclick="selectedOption(this,'select3')">1</li>
+                                    <li class="option-element" onclick="selectedOption(this,'select3')">2</li>
+                                    <li class="option-element" onclick="selectedOption(this,'select3')">3 and more</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="house-div">
+                        <div>Building Materials</div>
+                        <div class="double-div-element">
+                            <div class="first-box boxing square-segment color" onclick="colorCheck(this)">
+                                <p>A+ Grey Structure</p>
+                            </div>
+                            <div class="second-box boxing square-segment" onclick="colorCheck(this)">
+                                <p>Premium Finishing</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="submit-form-content">
+                        <p>Submit Form and get full estimate details</p>
+                    </div> 
+                    <div class="estimate-btn active">
+                        <div class="slideBtn estimate-container">
+                            <div class="slideElement">Get an Estimate</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="form-image">
+                <div class="one-man-image">
+                    <img src="./images/one-man-img.png" alt="" class="one-manImg">
+                </div>
+            </div>
+        </div>
+        <div class="skew-slide"></div>
+    </div>
+    <div class="main-container8">
+        <div class="container1-headingContent">
+            <img src="./images/section2-imageIcon.png" alt="imageIcon" class="headingImg c1-headingElements">
+            <div class="heading-content1 c1-headingElements">Blogs & News</div>
+            <h2 class="heading-content2 c1-headingElements">
+                Recent Articles
+            </h2>
+        </div>
+        <div class="slider-container">
+            <div class="slider">
+                <div class="article-slider1 slider-content" id="s1">
+                    <div class="article-main-content">
+                        <h1>1.</h1>
+                        <p class="novembor-content">November 7, 2022</p>
+                        <h3>The Scrim Project: San Francisco Artist Feature</h3>
+                        <img src="./images/up-right-arrow.png" alt="" class="arrImg">
+                    </div>
+                </div>
+                <div class="article-slider2 slider-content" id="s2">
+                    <div class="article-main-content">
+                        <h1>2.</h1>
+                        <p class="novembor-content">November 7, 2022</p>
+                        <h3>The Scrim Project: San Francisco Artist Feature</h3>
+                        <img src="./images/up-right-arrow.png" alt="" class="arrImg">
+                    </div>
+                </div>
+                <div class="article-slider3 slider-content" id="s3">
+                    <div class="article-main-content">
+                        <h1>3.</h1>
+                        <p class="novembor-content">November 7, 2022</p>
+                        <h3>The Scrim Project: San Francisco Artist Feature</h3>
+                        <img src="./images/up-right-arrow.png" alt="" class="arrImg">
+                    </div>
+                </div>
+                <div class="article-slider4 slider-content" id="s4">
+                    <div class="article-main-content">
+                        <h1>4.</h1>
+                        <p class="novembor-content">November 7, 2022</p>
+                        <h3>The Scrim Project: San Francisco Artist Feature</h3>
+                        <img src="./images/up-right-arrow.png" alt="" class="arrImg">
+                    </div>
+                </div>
+                <div class="article-slider5 slider-content" id="s5">
+                    <div class="article-main-content">
+                        <h1>5.</h1>
+                        <p class="novembor-content">November 7, 2022</p>
+                        <h3>The Scrim Project: San Francisco Artist Feature</h3>
+                        <img src="./images/up-right-arrow.png" alt="" class="arrImg">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="solid-move">
+            <table>
+                <tr>
+                    <td class="move-slide black-active td1" id="td1" onclick="getArticle(this)"></td>
+                    <td class="move-slide td2" id="td2" onclick="getArticle(this)"></td>
+                    <td class="move-slide td3" id="td3" onclick="getArticle(this)"></td>
+                    <td class="move-slide td4" id="td4" onclick="getArticle(this)"></td>
+                    <td class="move-slide td5" id="td5" onclick="getArticle(this)"></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="main-container9">
+        <div class="container1-headingContent">
+            <div class="heading-content1 c1-headingElements">Contact us</div>
+            <h2 class="heading-content2 c1-headingElements">
+                Get in Touch With Us.
+            </h2>
+            <h2 class="heading-content2 c1-headingElements">
+                We are Happy Help.
+            </h2>
+        </div>
+        <div class="map-card-container">
+            <div class="map-container">
+                <img src="./images/map-image.png" alt="map" class="mapImg">
+                <div class="profile1 profile" id="prof1" onclick="callCard('card1',this)">
+                    <img src="./images/profile1.jpeg" alt="p1" class="profileImg">
+                </div>
+                <div class="profile2 profile" id="prof2" onclick="callCard('card2',this)">
+                    <img src="./images/profile2.jpeg" alt="p2" class="profileImg">
+                </div>
+                <div class="profile3 profile" id="prof3" onclick="callCard('card3',this)">
+                    <img src=".//images/profile3.jpeg" alt="p3" class="profileImg">
+                </div>
+                <div class="profile4 profile" id="prof4" onclick="callCard('card4',this)">
+                    <img src="./images/profile4.jpeg" alt="p4" class="profileImg">
+                </div>
+                <div class="profile5 profile" id="prof5" onclick="callCard('card5',this)">
+                    <img src="./images/profile5.jpeg" alt="p1" class="profileImg">
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card1 cards" id="card1">
+                    <div class="card-content">
+                        <div class="profile-details">
+                            <h2>Guterrez Cruz</h2>
+                            <p>Sales Manager</p>
+                        </div>
+                        <div class="contact-details">
+                            <div class="email-detail">
+                                <span>Email:</span>
+                                <span class="under">
+                                    <span>cruz@domain.com</span>
+                                </span>
+                            </div>
+                            <div class="mobile-detail">
+                                <span>Phone:</span>
+                                <span>+1 23 145 789</span>
+                            </div>
+                        </div>
+                        <div class="address-details">
+                            <span>901 N Pitt Str, Suite 170, VA 22314, USA</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card2 cards" id="card2">
+                    <div class="card-content">
+                        <div class="profile-details">
+                            <h2>John Smith</h2>
+                            <p>Sales Manager</p>
+                        </div>
+                        <div class="contact-details">
+                            <div class="email-detail">
+                                <span>Email:</span>
+                                <span class="under">
+                                    <span>john@domain.com</span>
+                                </span>
+                            </div>
+                            <div class="mobile-detail">
+                                <span>Phone:</span>
+                                <span>+1 23 145 789</span>
+                            </div>
+                        </div>
+                        <div class="address-details">
+                            <span>901 N Pitt Str, Suite 170, VA 22314, USA</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card3 cards" id="card3">
+                    <div class="card-content">
+                        <div class="profile-details">
+                            <h2>Willimes Markor</h2>
+                            <p>Vice President</p>
+                        </div>
+                        <div class="contact-details">
+                            <div class="email-detail">
+                                <span>Email:</span>
+                                <span class="under">
+                                    <span>john@domain.com</span>
+                                </span>
+                            </div>
+                            <div class="mobile-detail">
+                                <span>Phone:</span>
+                                <span>+1 23 145 789</span>
+                            </div>
+                        </div>
+                        <div class="address-details">
+                            <span>901 N Pitt Str, Suite 170, VA 22314, USA</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card4 cards" id="card4">
+                    <div class="card-content">
+                        <div class="profile-details">
+                            <h2>Jessica Loren</h2>
+                            <p>Sales Manager</p>
+                        </div>
+                        <div class="contact-details">
+                            <div class="email-detail">
+                                <span>Email:</span>
+                                <span class="under">
+                                    <span>jessica@domain.com</span>
+                                </span>
+                            </div>
+                            <div class="mobile-detail">
+                                <span>Phone:</span>
+                                <span>+1 23 145 789</span>
+                            </div>
+                        </div>
+                        <div class="address-details">
+                            <span>901 N Pitt Str, Suite 170, VA 22314, USA</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card5 cards" id="card5">
+                    <div class="card-content">
+                        <div class="profile-details">
+                            <h2>Clark Thomas</h2>
+                            <p>Vice President</p>
+                        </div>
+                        <div class="contact-details">
+                            <div class="email-detail">
+                                <span>Email:</span>
+                                <span class="under">
+                                    <span>clark@domain.com</span>
+                                </span>
+                            </div>
+                            <div class="mobile-detail">
+                                <span>Phone:</span>
+                                <span>+1 23 145 789</span>
+                            </div>
+                        </div>
+                        <div class="address-details">
+                            <span>901 N Pitt Str, Suite 170, VA 22314, USA</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main-container10">
+        <div class="footer-first active">
+            <div class="logo-element">
+                <img src="./images/Builty-Logo.svg" alt="logo" class="logoImage logo-el">
+            </div>
+            <div class="double-images">
+                <div class="boy-image">
+                    <img src="./images/boyimage.jpeg" alt="boy" class="boyImg">
+                </div>
+                <div class="girl-image">
+                    <img src="./images/girlimage.jpeg" alt="girl" class="girlImg">
+                </div>
+            </div>
+            <div class="sales-content">
+                <p>Sales representive
+                    <span>+1 (251) 344 0 66</span>
+                    free call!
+                </p>
+            </div>
+            <div class="slideBtn estimation">
+                <div class="slideElement">Get a Consultation</div>
+            </div>
+        </div>
+        <div class="container10">
+            <div class="footer-col1 col">
+                <div class="footer-column">
+                    <h3>Information</h3>
+                    <p class="col-p">We successfully cope with tasks of varying complexity, provide long-term guarantees and regularly master new technologies.</p>
+                </div>
+            </div>
+            <div class="footer-col2 col">
+                <div class="footer-column">
+                    <h3>Contact</h3>
+                    <div class="information">
+                        <img src="./images/location-yellow.png" alt="location" class="locationing">
+                        <p>901 N Pitt Str., Suite 170, VA 22314, USA</p>
+                    </div>
+                    <div class="information">
+                        <img src="./images/smartphone-yellow.png" alt="location" class="locationing">
+                        <p>(+380) 50 318 47 07</p>
+                    </div>
+                    <div class="information">
+                        <img src="./images/mail-yellow.png" alt="location" class="locationing">
+                        <p>contact@builty.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-col3 col">
+                <div class="footer-column">
+                    <h3>Newsletter</h3>
+                    <p class="col-p">Signup for our weekly newsletter to get the latest news.</p>
+                    <div class="inputElement">
+                        <input type="email" class="emailInput" placeholder="Enter your email">
+                        <button class="submitBtn button"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-last">
+            <div class="last-line">
+                <p>
+                    Builty Construction Company
+                    <img src="./images/yellow-heart.png" alt="heart" class="yellowHeart">
+                    &copy; 2022
+                    <a href="#">bslthemes.com</a>
+                    All rights reserved.
+                </p>
+            </div>
+            <div class="footer-links">
+                <a href="#facebook">Facebook</a>
+                <a href="#twitter">Twitter</a>
+                <a href="#LinkedIn">Linked In</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html> 
