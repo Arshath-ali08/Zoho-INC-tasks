@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>form validation</title>
+<link rel = "stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+<div class = "container">
+<h1 class = "title">User Form validation</h1>
+<div class = "main">
+<div class = "table">
+<table id = "table">
+</table></div>
+<form name = "myForm" id = "form" class = "form">
+	<div id = "div1">
+	<label>Name</label>
+	<input type ="text" id = "username" placeholder= "Enter the name">
+	<small></small><br>
+	</div>
+	<div id = "div2">
+	<label>Phone number</label>
+	<input type ="text" id = "phone" placeholder= "Enter 10 digit number">
+	<small></small><br>
+	</div>
+	<div id = "div3">
+	<label>E-mail</label>
+	<input type ="email" id = "email" placeholder= "Enter email id">
+	<small></small><br>
+	</div>
+	<div id = "div4">
+	<label>Create Password</label>
+	<input type ="password" id = "password" class = "pass" value = "Asd12345" placeholder= "atleast 8 characters">
+	<i class="fa-solid fa-eye" id="eye1"></i>
+	<small></small><br>
+	</div>
+	<div id = "div5">
+	<label>Confirm Password</label>
+	<input type ="password" id = "cpassword" class = "pass" value = "Asd12345" placeholder= "confirm password">
+	<i class="fa-solid fa-eye" id="eye2"></i>
+	<small></small><br>
+	</div>
+	<div> 
+	<!-- <div id = 'button'>Submit me</div> -->
+	<input type="button" id = "button" value="Submit">
+	<!-- <button type = "submit" name="button">Submit</button> -->
+	</div>
+	</form>
+	</div>
+</div>
+<script type="text/javascript" src= "script.js"></script>
+</body>
+</html>

@@ -1,0 +1,142 @@
+body{
+    background-image: linear-gradient(90deg, #eab8c9,#5f8af8);
+    margin: 0;
+}
+#main-menu{
+    display: block;
+    margin: 15%;
+}
+#welcomeText{
+    padding: 10px;
+    text-align: center;
+}
+.menu{
+    width: 20%;
+    padding: 10px;
+    margin: auto;
+}
+.menu div{
+    padding: 8px;
+    margin: 10px;
+    border-radius:15px;
+    text-align: center;
+    cursor: pointer;
+    border: 1.5px solid #1d291e;
+}
+.menu div:hover{
+    background-color: #cfd6e6;
+}
+#aboutMe{
+    display: none;
+    text-align: center;
+    width: 30%;
+    margin: auto;
+    padding: 10px;
+    background-image: linear-gradient(10deg, #5f8af8, transparent);
+    border-radius: 15px;
+}
+#aboutMe a{
+    margin: 15px;
+}
+#aboutMe p{
+    font-style: italic;
+}
+#playerNameDiv{
+    display: none;
+    width: 25%;
+    padding: 10px;
+    background-image: linear-gradient(120deg, #208068,#bdded6);
+    background-color: #81b397;
+    text-align: center;
+    margin: 20% 38%;
+    border-radius: 10px;
+}
+#playerNameDiv #playerNameInput{
+    padding: 5px;
+    margin: 10px;
+    border: none;
+    border-radius: 12px;
+    text-align: center;
+}
+#playerNameDiv #playBtn{
+    padding: 3px 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.gameControl{
+    padding: 5px;
+    margin: 5px;
+}
+.container-game{
+    display: none;
+    height: 800px;
+    border: 2.5px black solid;
+    border-radius: 10px;
+    margin: 10px;
+}
+#displayBoard{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #3f4e8a;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 7px 7px 0px 0px;
+    color: #fcf2e1;
+}
+#brickContainer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.brick{
+    width: 7%;
+    height: 20px;
+    margin: 5px;
+    background-color: #000;
+}
+#ball{
+    position: fixed;
+    height: 30px;
+    width: 30px;
+    border-radius: 20px;
+    background-color: #4d6652;
+    top: 85%;
+    left: 50%;
+}
+#paddle{
+    position: fixed;
+    height: 18px;
+    width: 130px;
+    background-color: #3f4e8a;
+    top: 92%;
+    left: 48%;
+}
+#gameOverDiv{
+    display: none;  
+}
+#gameOverIcon{
+    margin-top: 12%;
+    margin-left: 42%;
+}
+#retryIcon{
+    cursor: pointer;
+    margin-left: 50%;
+}
+.winningMsg{
+    display: none;
+    height: 330px;
+    width: 300px;
+    margin: 15% 40%;
+}
+#finalScore{
+    background-color: #cfd6e6;
+    width: 60%;
+    margin: auto;
+    border-radius: 15px;
+    text-align: center;
+    border: 1px solid #383dc9;
+    padding: 2px;
+}

@@ -1,0 +1,52 @@
+body{
+    background-image: linear-gradient(to left, #134ead,#b8cce0);
+    font-family: Verdana;
+}
+#container{
+    width: 700px;
+    height: 400px;
+    margin: auto;
+    background-color: #f2d2bd;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 120px;
+    border-radius: 20px;
+}
+input, .display{
+    width: 200px;
+    height: 30px;
+    padding: 15px;
+    font-size: 18px;
+    border: none;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #f7f7f7;
+    margin: 20px;
+}
+#box1, #box2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    background-color: #b8dae0;
+    cursor: pointer;
+    font-family: Verdana;
+}
+h6{
+    color: #ff0000;
+    position: absolute;
+    margin-top: -15px;
+    margin-left: 70px;
+    visibility: hidden;
+}
+
+#alt{
+    margin-left: 60px;
+}

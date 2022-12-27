@@ -1,0 +1,36 @@
+#container{
+    background-color: #f7dec1;
+    width: 60%;
+    margin: auto;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    overflow: hidden;
+}
+.image{
+    height:650px;
+    width: 100%;
+}
+img{
+    height: 600px;
+    width: 800px;
+    margin: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+.slide{
+    text-align: center;
+    height: 20px;
+    width: 20px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    position: fixed;
+    top: 35%;
+}
+.prev{
+    left: 21%;
+}
+.next{
+    left: 78%;
+}

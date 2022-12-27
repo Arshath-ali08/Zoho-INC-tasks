@@ -1,0 +1,13 @@
+img{
+    height: 100px;
+    width: 280px;
+    margin: 10px 0px;
+}
+button{
+    background-color: #f7dada;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}

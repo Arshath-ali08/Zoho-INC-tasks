@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form Document</title>
+    <link rel="stylesheet" href="formStyle.css">
+    <script src="formScript.js"></script>
+</head>
+<body>
+    <div id="container">
+        <form id="form" class="form">
+        <div id="box">
+            <div id="divName">
+                <label for ="name" id = "labelname" class="name">Name</label>
+                <input type = "text" name = "name" id = "inputName" class="name"><br>
+                <small></small>
+            </div>
+            
+            <div id="divDob">
+                <label for = "dateOfBirth" id = "labelDOB" class = "dob">Date Of Birth</label>
+                <input type = "text" name = "dateOfBirth" id = "inputDob" class = "dob" placeholder="MM-DD-YYYY"><br>
+                <small></small>
+            </div>
+
+            <div id="divSex">
+                <label id = "labelSex" class = "sex">Sex</label>
+                <select id = "inputSex" class = "sex">
+                    <option id = "select" value = "none">--Select--</option>
+                    <option id = "Male" value = "Male">Male</option>
+                    <option id = "Female" value = "Female">Female</option>
+                </select><br>
+                <small></small>
+            </div>
+
+            <div id="divNum">
+                <label for = "num" id = "labelNum" class = "num">Mobile Number</label>
+                <input type="text" name="num" id="inputNum" class="num"><br>
+                <small></small>
+            </div>
+            
+            <div id="divButtons">
+                <button type="reset" id = "reset" onclick = "resets()">Reset</button>
+                <input type="button" id = "submits" value = "Submit" onclick="inputCheck()">
+            </div>
+        </div>
+        </form>
+    </div>
+    <div id = "display">
+        <div id="userInfo">User Information</div>
+        <table>
+            <tr><td class="column1">Name :</td><td id = 'dis1'></td></tr>
+            <tr><td class="column1">Date of Birth :</td><td id = 'dis2'></td></tr>
+            <tr><td class="column1">Sex :</td><td id = 'dis3'></td></tr>
+            <tr><td class="column1">Mobile :</td><td id = 'dis4'></td></tr>
+        </table>
+    </div>
+</body>
+</html>

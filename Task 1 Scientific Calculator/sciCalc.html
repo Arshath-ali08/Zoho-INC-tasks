@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Calculator</title>
+<link rel = "stylesheet" href="calcDesign.css">
+<script src = "calcSScript.js" defer></script>
+</head>
+<body>
+<div class = "container">
+	<input class = "inputBar" id = "inputbar" placeholder="0"/><br><br>
+	<button type = "reset" id = "reset" class ="final" onclick= "reset()">C</button>
+	<button id = "backspace" class ="final" value = "<--" onclick="backspace()"><--</button>
+	<button id = "equalTo" class ="final" value = "=" onclick = "result()">=</button>
+	<input type = "button" id = "pi" class = "math" value = "π">
+	<button id = "percentage" class = "operators" value = "%" onclick = "percentage()">%</button>
+	<br>
+	<input type = "button" id = "seven" class = "number" value = "7">
+	<input type = "button" id = "eight" class = "number" value = "8">
+	<input type = "button" id = "nine" class = "number" value ="9" >
+	<input type = "button" id = "powerX" class = "math" value = "x^">
+	<input type = "button" id = "divide" class = "operators" value = "/">
+	<br>
+	<input type = "button" id = "four" class = "number" value = "4">
+	<input type = "button" id = "five" class = "number" value = "5">
+	<input type = "button" id = "six" class = "number" value = "6">
+	<input type = "button" id = "ln" class = "math" value = "ln">
+	<input type = "button" id = "multiply" class = "operators" value = "*">
+	<br>
+	<input type = "button" id = "one" class = "number" value = "1">
+	<input type = "button" id = "two" class = "number" value = "2">
+	<input type = "button" id = "three" class = "number" value = "3">
+	<input type = "button" id = "root" class = "math" value = "√">
+	<input type = "button" id = "subtract" class = "operators" value = "-">
+	<br>
+	<input type = "button" id = "plusOrMinus" class = "operators" value = "±">
+	<input type = "button" id = "zero" class = "number" value = "0">
+	<input type = "button" id = "decimal" class = "operators" value = ".">
+	<input type = "button" id = "xSquare" class = "math" value = "x2">
+	<input type = "button" id = "add" class = "operators" value = "+">
+	<br>
+	<input type = "button" id = "openParenthesis" class = "operators" value = "(">
+	<input type = "button" id = "closeParenthesis" class = "operators" value = ")">
+	<input type = "button" id = "cos" class = "operators" value = "cos">
+	<input type = "button" id = "sin" class = "operators" value = "sin">
+	<input type = "button" id = "tan" class = "operators" value = "tan">
+	<br><br>
+</div>
+</body>
+</html>

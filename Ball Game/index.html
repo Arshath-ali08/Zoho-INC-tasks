@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="ballScript.js" defer></script>
+    <title>Breakout Game</title>
+</head>
+<body>
+    <div id="main-menu">
+        <div id="welcomeText">
+           <h3 id="welcome">A simple DX Ball Game</h3>
+        </div> 
+        <div class="menu">
+            <div id ="start">Start</div>
+            <div id="about">About</div>
+        </div>
+        <div id="aboutMe">
+            <img src="web-development.png" alt="Developer" width="50px" height="50px">
+            <p>Mohammed Arshath Ali</p>
+            <p>Software Developer</p>
+            <a href="https://wa.me/+917339172881"><img src="whatsapp.png" alt="Whatsapp" width="25px" height="25px"></a>
+            <a href="mailto:arshathalib11@gmail.com"><img src="email.png" alt="email" width="25px" height="25px"></a>
+        </div>
+    </div>
+    
+    <div id="playerNameDiv">
+        <p>Select the control of the game</p>
+        <input type="radio" name="gameControl" id="mouseControl" class="gameControl" value="Mouse">Mouse 
+        <input type="radio" name="gameControl" id="keyboardControl" class="gameControl" value = "keyboard">Keyboard <br>
+        <input type="text" id = "playerNameInput" placeholder="Enter your Name" autocomplete="off"><br>
+        <button id = "playBtn">Play</button>
+    </div>
+
+    <div class="container-game">
+        <div class="gameDisplay">
+            <div id="displayBoard">
+                <div id="score">Score</div>
+                <div id="player">Player</div>
+                <div id="level">Level</div>
+                <div id="life">Lives</div>
+                <div id="timer">Timer 
+                    <span id="minutes">00</span>
+                    <span id="colon">:</span>
+                    <span id="seconds">00</span>
+                </div>
+            </div>
+            <div id="brickContainer"></div>
+            <div id="paddleSet">
+                <div id="ball"></div>
+                <div id="paddle"></div>
+            </div>
+        </div>
+        
+        <div id="gameOverDiv">
+            <img src="game-over-svgrepo-com.svg" alt="gameover" id ="gameOverIcon" height="200px" width="300px"><br>
+            <img src="reload.png" alt="Retry" id = "retryIcon" height="50px" width="50px">
+        </div>
+    </div>
+    <div class="winningMsg">
+        <img src="you.png" alt="You won" height="300px" width="300px">
+        <div id="finalScore"></div>
+    </div>
+</body>
+</html>
