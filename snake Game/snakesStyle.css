@@ -1,0 +1,108 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+.main-menu{
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#welcomeText{
+    padding: 10px;
+    text-align: center;
+}
+.menu div{
+    padding: 8px;
+    margin: 10px;
+    border-radius:15px;
+    text-align: center;
+    cursor: pointer;
+    border: 1.5px solid #1d291e;
+}
+.menu div:hover{
+    background-color: #cfd6e6;
+}
+.aboutMe{
+   visibility: hidden;
+   opacity: 0;
+   text-align: center;
+   padding: 10px;
+   transition: 0.3s ease;
+}
+.activeAbout{
+    visibility: visible;
+    text-align: center;
+    opacity: 1;
+    padding: 10px;
+    background-image: linear-gradient(10deg, #5f8af8, transparent);
+    border-radius: 15px;
+}
+.aboutMe a{
+    margin: 15px;
+}
+.aboutMe p{
+    font-style: italic;
+}
+.gameContainer, .playerNameSection{
+    display: none;
+}
+.playerNameSection{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.player-name{
+    border: 2px solid #444;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+}
+.startPlayBtn{
+    padding: 5px 25px;
+    margin: 15px 24px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background: #7998c9;
+}
+.displayBoard{
+    display: flex;
+    justify-content: space-around;
+}
+.snakeContainer{
+    height: 600px;
+    width: 600px;
+    margin: auto;
+    background-color: #e1d1ed;
+    display: grid;
+    grid-template-columns: repeat(40,15px);
+    grid-template-rows: repeat(40,15px);
+}
+.snakeElement{
+    background-color: #9c937b;
+    position: relative;
+    z-index: 1;
+    border-radius: 3px;
+}
+.foodElement{
+    background-color: red;
+    border-radius: 10px;
+}
+.yellowFoodElement{
+    background-color: yellow;
+    border-radius: 10px;
+}
+.head{
+    background: #e1d1ed;
+    background-color: 'blue';
+}
+.powerUp{
+    background: #000;
+}
+.yellowFull{
+    background-color: #ffee02;
+    border-radius: 5px;
+}

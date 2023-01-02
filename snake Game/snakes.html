@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="snakesStyle.css">
+    <script src="snakesScr.js" defer></script>
+    <title>Snake Game</title>
+</head>
+<body>
+    <div class="main-menu">
+        <div id="welcomeText">
+            <h3 id="welcome">A Snake Game</h3>
+        </div> 
+        <div class="menu">
+            <div id ="start">Start</div>
+            <div id="about">About</div>
+        </div>
+        <div class="aboutMe">
+            <img src="./images/web-development.png" alt="Developer" width="50px" height="50px">
+            <p>Mohammed Arshath Ali</p>
+            <p>Software Developer</p>
+            <a href="https://wa.me/+917339172881"><img src="./images/whatsapp.png" alt="Whatsapp" width="25px" height="25px"></a>
+            <a href="mailto:arshathalib11@gmail.com"><img src="./images/email.png" alt="email" width="25px" height="25px"></a>
+        </div>
+    </div>
+    <div class="playerNameSection">
+        <input type="text" class="player-name" placeholder="Enter your name"><br>
+        <button class="startPlayBtn">Start to Play</button>
+    </div>
+    <div class="gameContainer">
+        <div class="displayBoard">
+            <div id="timer">Timer 
+                <span id="minutes">00</span>
+                <span id="colon">:</span>
+                <span id="seconds">00</span>
+            </div>
+            <div id="specialPower">
+                <span>Special Power :</span>
+                <span class="powerSelection">None</span>
+            </div>
+            <div id="scoreBoard">Score</div> 
+        </div>
+        <div class="snakeContainer"></div>
+    </div>
+</body>
+</html>
